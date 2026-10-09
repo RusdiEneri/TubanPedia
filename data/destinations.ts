@@ -105,9 +105,9 @@ export const destinations: Destination[] = [
     longitude: 112.0583,
     openingHours: "07:00 - 18:00 WIB",
     ticketPrice: "Rp10.000",
-    coverImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23",
+    coverImage: "https://images.unsplash.com/photo-1530988573998-9a3b4c9de48f",
     gallery: [
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23",
+      "https://images.unsplash.com/photo-1530988573998-9a3b4c9de48f",
       "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9",
       "https://images.unsplash.com/photo-1548013146-72479768bada",
     ],

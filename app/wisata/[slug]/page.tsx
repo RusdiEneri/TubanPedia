@@ -84,7 +84,7 @@ export default async function DestinationDetailPage({ params }: PageProps) {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {relatedDestinations.map((rel) => (
-                <DestinationCard key={rel.id} destination={rel} />
+                <DestinationCard key={rel.id} destination={rel} className="aspect-[3/4] min-h-[380px]" />
               ))}
             </div>
           </section>

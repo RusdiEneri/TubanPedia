@@ -3,9 +3,14 @@ import Image from "next/image";
 import { ArrowUpRight, MapPin, Ticket } from "lucide-react";
 import type { Destination } from "@/types/destination";
 
-export function DestinationCard({ destination }: { destination: Destination }) {
+interface DestinationCardProps {
+  destination: Destination;
+  className?: string;
+}
+
+export function DestinationCard({ destination, className = "" }: DestinationCardProps) {
   return (
-    <article className="destination-card aspect-[3/4] min-h-[380px] rounded-2xl overflow-hidden shadow-md group relative">
+    <article className={`destination-card rounded-2xl overflow-hidden shadow-md group relative ${className}`}>
       <div className="destination-image">
         <Image
           src={destination.coverImage}
